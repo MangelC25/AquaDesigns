@@ -1,0 +1,176 @@
+@use "GeneralStyles" as Variables;
+
+@mixin Header($fontsize, $widthlogo, $navtoggle) {
+  body {
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0 2rem;
+      background: Variables.$bg-navbar;
+      font-family: Variables.$font-style1;
+      font-size: $fontsize;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: Variables.$text-colornavbar;
+      gap: 1rem;
+      z-index: 100;
+      box-shadow: Variables.$boxshadow;
+
+      #logo {
+        user-select: none;
+        width: $widthlogo;
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: auto;
+          display: block;
+        }
+      }
+
+      #menu-icon {
+        font-size: 1.8rem;
+        cursor: pointer;
+        display: $navtoggle;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          background-color: white;
+          color: Variables.$text-color;
+        }
+
+        &.active {
+          background-color: white;
+          color: Variables.$text-color;
+        }
+      }
+
+      #headernavbar {
+        width: 100%;
+        #navbar {
+          #nav-container {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+
+            #navbar-nav {
+              display: flex;
+            }
+          }
+        }
+      }
+
+      ul {
+        list-style-type: none;
+        background-color: Variables.$bg-navbar;
+        border-radius: 0 0 5% 5%;
+        gap: 1rem;
+
+        li {
+          position: relative;
+          a {
+            color: Variables.$text-colornavbar;
+            border-radius: 0 0 5% 5%;
+            width: 100%;
+            padding: 0.8rem;
+            display: block;
+            transition: all 0.2s ease-in-out;
+          }
+
+          &.active {
+            transition: all 0.2s ease-in-out;
+            border-radius: 5%;
+            background-color: white;
+            > a {
+              color: Variables.$text-color;
+            }
+          }
+
+          &:hover {
+            transition: all 0.2s ease-out;
+            border-radius: 5%;
+            background-color: white;
+            > a {
+              color: Variables.$text-color;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  @include Header(100%, 7rem, none);
+}
+
+@media (max-width: 1440px) {
+  @include Header(100%, 7rem, none);
+}
+
+@media (max-width: 1367px) {
+  @include Header(100%, 7rem, none);
+}
+
+@media (max-width: 1280px) {
+  @include Header(100%, 6rem, none);
+}
+
+@media (max-width: 1025px) {
+  @include Header(75%, 5rem, none);
+}
+
+@media (max-width: 769px) {
+  @include Header(75%, 5rem, block);
+
+  body {
+    .header {
+      #headernavbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        max-height: 0;
+        overflow-y: hidden;
+        transition: max-height 0.7s ease-in-out;
+
+        #navbar {
+          #nav-container {
+            flex-direction: column;
+            justify-content: flex-start;
+
+            #navbar-nav {
+              display: block;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      ul {
+        border-radius: 0;
+        li {
+          a {
+            border-radius: 0;
+          }
+
+          &.active {
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  @include Header(75%, 4rem,block);
+}
+
+@media (max-width: 425px) {
+  @include Header(75%, 4rem,block);
+}
+
