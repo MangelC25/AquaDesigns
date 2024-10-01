@@ -1,5 +1,6 @@
 /*Variables*/
 @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
 :root {
   --bg-navbar: $bg-navbar;
   --text-colornavbar: $text-colornavbar;
@@ -44,7 +45,7 @@ hr {
     left: 0;
     width: 100%;
     padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 100%;
     display: flex;
@@ -54,273 +55,9 @@ hr {
     gap: 1rem;
     z-index: 100;
     box-shadow: 0px 2px 15px black;
-  }
-  body .header #logo {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
-    width: 7rem;
-    overflow: hidden;
-  }
-  body .header #logo img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  body .header #menu-icon {
-    font-size: 1.8rem;
-    cursor: pointer;
-    display: none;
-    transition: all 0.2s ease-in-out;
-  }
-  body .header #menu-icon:hover {
-    background-color: white;
-    color: black;
-  }
-  body .header #menu-icon.active {
-    background-color: white;
-    color: black;
-  }
-  body .header #headernavbar {
-    width: 100%;
-  }
-  body .header #headernavbar #navbar #nav-container {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-  }
-  body .header #headernavbar #navbar #nav-container #navbar-nav {
-    display: flex;
-  }
-  body .header ul {
-    list-style-type: none;
-    background-color: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
-    border-radius: 0 0 5% 5%;
-    gap: 1rem;
-  }
-  body .header ul li {
-    position: relative;
-  }
-  body .header ul li a {
-    color: white;
-    border-radius: 0 0 5% 5%;
-    width: 100%;
-    padding: 0.8rem;
-    display: block;
-    transition: all 0.2s ease-in-out;
-  }
-  body .header ul li.active {
-    transition: all 0.2s ease-in-out;
-    border-radius: 5%;
-    background-color: white;
-  }
-  body .header ul li.active > a {
-    color: black;
-  }
-  body .header ul li:hover {
-    transition: all 0.2s ease-out;
-    border-radius: 5%;
-    background-color: white;
-  }
-  body .header ul li:hover > a {
-    color: black;
-  }
-}
-@media (max-width: 1440px) {
-  body .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
-    font-family: "Protest Guerrilla", sans-serif;
-    font-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 1rem;
-    z-index: 100;
-    box-shadow: 0px 2px 15px black;
-  }
-  body .header #logo {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
-    width: 7rem;
-    overflow: hidden;
-  }
-  body .header #logo img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  body .header #menu-icon {
-    font-size: 1.8rem;
-    cursor: pointer;
-    display: none;
-    transition: all 0.2s ease-in-out;
-  }
-  body .header #menu-icon:hover {
-    background-color: white;
-    color: black;
-  }
-  body .header #menu-icon.active {
-    background-color: white;
-    color: black;
-  }
-  body .header #headernavbar {
-    width: 100%;
-  }
-  body .header #headernavbar #navbar #nav-container {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-  }
-  body .header #headernavbar #navbar #nav-container #navbar-nav {
-    display: flex;
-  }
-  body .header ul {
-    list-style-type: none;
-    background-color: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
-    border-radius: 0 0 5% 5%;
-    gap: 1rem;
-  }
-  body .header ul li {
-    position: relative;
-  }
-  body .header ul li a {
-    color: white;
-    border-radius: 0 0 5% 5%;
-    width: 100%;
-    padding: 0.8rem;
-    display: block;
-    transition: all 0.2s ease-in-out;
-  }
-  body .header ul li.active {
-    transition: all 0.2s ease-in-out;
-    border-radius: 5%;
-    background-color: white;
-  }
-  body .header ul li.active > a {
-    color: black;
-  }
-  body .header ul li:hover {
-    transition: all 0.2s ease-out;
-    border-radius: 5%;
-    background-color: white;
-  }
-  body .header ul li:hover > a {
-    color: black;
-  }
-}
-@media (max-width: 1367px) {
-  body .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
-    font-family: "Protest Guerrilla", sans-serif;
-    font-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 1rem;
-    z-index: 100;
-    box-shadow: 0px 2px 15px black;
-  }
-  body .header #logo {
-    -webkit-user-select: none;
-       -moz-user-select: none;
-            user-select: none;
-    width: 7rem;
-    overflow: hidden;
-  }
-  body .header #logo img {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  body .header #menu-icon {
-    font-size: 1.8rem;
-    cursor: pointer;
-    display: none;
-    transition: all 0.2s ease-in-out;
-  }
-  body .header #menu-icon:hover {
-    background-color: white;
-    color: black;
-  }
-  body .header #menu-icon.active {
-    background-color: white;
-    color: black;
-  }
-  body .header #headernavbar {
-    width: 100%;
-  }
-  body .header #headernavbar #navbar #nav-container {
-    display: flex;
-    width: 100%;
-    justify-content: flex-end;
-  }
-  body .header #headernavbar #navbar #nav-container #navbar-nav {
-    display: flex;
-  }
-  body .header ul {
-    list-style-type: none;
-    background-color: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
-    border-radius: 0 0 5% 5%;
-    gap: 1rem;
-  }
-  body .header ul li {
-    position: relative;
-  }
-  body .header ul li a {
-    color: white;
-    border-radius: 0 0 5% 5%;
-    width: 100%;
-    padding: 0.8rem;
-    display: block;
-    transition: all 0.2s ease-in-out;
-  }
-  body .header ul li.active {
-    transition: all 0.2s ease-in-out;
-    border-radius: 5%;
-    background-color: white;
-  }
-  body .header ul li.active > a {
-    color: black;
-  }
-  body .header ul li:hover {
-    transition: all 0.2s ease-out;
-    border-radius: 5%;
-    background-color: white;
-  }
-  body .header ul li:hover > a {
-    color: black;
-  }
-}
-@media (max-width: 1280px) {
-  body .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
-    font-family: "Protest Guerrilla", sans-serif;
-    font-size: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    color: white;
-    gap: 1rem;
-    z-index: 100;
-    box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -378,7 +115,7 @@ hr {
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li.active > a {
@@ -386,7 +123,283 @@ hr {
   }
   body .header ul li:hover {
     transition: all 0.2s ease-out;
-    border-radius: 5%;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  body .header ul li:hover > a {
+    color: black;
+  }
+}
+@media (max-width: 1440px) {
+  body .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 2rem;
+    /*background: Variables.$bg-navbar;*/
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 1rem;
+    z-index: 100;
+    box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+  }
+  body .header #logo {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    width: 6rem;
+    overflow: hidden;
+  }
+  body .header #logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  body .header #menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+    transition: all 0.2s ease-in-out;
+  }
+  body .header #menu-icon:hover {
+    background-color: white;
+    color: black;
+  }
+  body .header #menu-icon.active {
+    background-color: white;
+    color: black;
+  }
+  body .header #headernavbar {
+    width: 100%;
+  }
+  body .header #headernavbar #navbar #nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  body .header #headernavbar #navbar #nav-container #navbar-nav {
+    display: flex;
+  }
+  body .header ul {
+    list-style-type: none;
+    background-color: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    border-radius: 0 0 5% 5%;
+    gap: 1rem;
+  }
+  body .header ul li {
+    position: relative;
+  }
+  body .header ul li a {
+    color: white;
+    border-radius: 0 0 5% 5%;
+    width: 100%;
+    padding: 0.8rem;
+    display: block;
+    transition: all 0.2s ease-in-out;
+  }
+  body .header ul li.active {
+    transition: all 0.2s ease-in-out;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  body .header ul li.active > a {
+    color: black;
+  }
+  body .header ul li:hover {
+    transition: all 0.2s ease-out;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  body .header ul li:hover > a {
+    color: black;
+  }
+}
+@media (max-width: 1367px) {
+  body .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 2rem;
+    /*background: Variables.$bg-navbar;*/
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 1rem;
+    z-index: 100;
+    box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+  }
+  body .header #logo {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    width: 6rem;
+    overflow: hidden;
+  }
+  body .header #logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  body .header #menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+    transition: all 0.2s ease-in-out;
+  }
+  body .header #menu-icon:hover {
+    background-color: white;
+    color: black;
+  }
+  body .header #menu-icon.active {
+    background-color: white;
+    color: black;
+  }
+  body .header #headernavbar {
+    width: 100%;
+  }
+  body .header #headernavbar #navbar #nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  body .header #headernavbar #navbar #nav-container #navbar-nav {
+    display: flex;
+  }
+  body .header ul {
+    list-style-type: none;
+    background-color: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    border-radius: 0 0 5% 5%;
+    gap: 1rem;
+  }
+  body .header ul li {
+    position: relative;
+  }
+  body .header ul li a {
+    color: white;
+    border-radius: 0 0 5% 5%;
+    width: 100%;
+    padding: 0.8rem;
+    display: block;
+    transition: all 0.2s ease-in-out;
+  }
+  body .header ul li.active {
+    transition: all 0.2s ease-in-out;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  body .header ul li.active > a {
+    color: black;
+  }
+  body .header ul li:hover {
+    transition: all 0.2s ease-out;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  body .header ul li:hover > a {
+    color: black;
+  }
+}
+@media (max-width: 1280px) {
+  body .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 2rem;
+    /*background: Variables.$bg-navbar;*/
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    gap: 1rem;
+    z-index: 100;
+    box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+  }
+  body .header #logo {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    width: 6rem;
+    overflow: hidden;
+  }
+  body .header #logo img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  body .header #menu-icon {
+    font-size: 1.8rem;
+    cursor: pointer;
+    display: none;
+    transition: all 0.2s ease-in-out;
+  }
+  body .header #menu-icon:hover {
+    background-color: white;
+    color: black;
+  }
+  body .header #menu-icon.active {
+    background-color: white;
+    color: black;
+  }
+  body .header #headernavbar {
+    width: 100%;
+  }
+  body .header #headernavbar #navbar #nav-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+  }
+  body .header #headernavbar #navbar #nav-container #navbar-nav {
+    display: flex;
+  }
+  body .header ul {
+    list-style-type: none;
+    background-color: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    border-radius: 0 0 5% 5%;
+    gap: 1rem;
+  }
+  body .header ul li {
+    position: relative;
+  }
+  body .header ul li a {
+    color: white;
+    border-radius: 0 0 5% 5%;
+    width: 100%;
+    padding: 0.8rem;
+    display: block;
+    transition: all 0.2s ease-in-out;
+  }
+  body .header ul li.active {
+    transition: all 0.2s ease-in-out;
+    border-radius: 1rem;
+    background-color: white;
+  }
+  body .header ul li.active > a {
+    color: black;
+  }
+  body .header ul li:hover {
+    transition: all 0.2s ease-out;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li:hover > a {
@@ -400,7 +413,7 @@ hr {
     left: 0;
     width: 100%;
     padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -410,6 +423,9 @@ hr {
     gap: 1rem;
     z-index: 100;
     box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -467,7 +483,7 @@ hr {
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li.active > a {
@@ -475,7 +491,7 @@ hr {
   }
   body .header ul li:hover {
     transition: all 0.2s ease-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li:hover > a {
@@ -489,7 +505,7 @@ hr {
     left: 0;
     width: 100%;
     padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -499,6 +515,9 @@ hr {
     gap: 1rem;
     z-index: 100;
     box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -556,7 +575,7 @@ hr {
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li.active > a {
@@ -564,7 +583,7 @@ hr {
   }
   body .header ul li:hover {
     transition: all 0.2s ease-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li:hover > a {
@@ -605,7 +624,7 @@ hr {
     left: 0;
     width: 100%;
     padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -615,6 +634,9 @@ hr {
     gap: 1rem;
     z-index: 100;
     box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -672,7 +694,7 @@ hr {
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li.active > a {
@@ -680,7 +702,7 @@ hr {
   }
   body .header ul li:hover {
     transition: all 0.2s ease-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li:hover > a {
@@ -694,7 +716,7 @@ hr {
     left: 0;
     width: 100%;
     padding: 0 2rem;
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -704,6 +726,9 @@ hr {
     gap: 1rem;
     z-index: 100;
     box-shadow: 0px 2px 15px black;
+    /* Aplicar el blur solo al fondo del header */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -761,7 +786,7 @@ hr {
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li.active > a {
@@ -769,10 +794,158 @@ hr {
   }
   body .header ul li:hover {
     transition: all 0.2s ease-out;
-    border-radius: 5%;
+    border-radius: 1rem;
     background-color: white;
   }
   body .header ul li:hover > a {
     color: black;
+  }
+}
+@media (max-width: 1920px) {
+  body #Home {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 41rem;
+    overflow: hidden;
+    padding: 0 3rem;
+  }
+  body #Home #fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
+    z-index: -1;
+  }
+  body #Home #gradientHome {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.71) 1%, transparent);
+  }
+  body #Home #HomeContain {
+    margin-top: 5rem;
+    padding: 0 1rem;
+    width: 65rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: flex;
+    position: relative;
+  }
+  body #Home #HomeContain #Text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  body #Home #HomeContain #Text #logo {
+    width: 14rem;
+  }
+  body #Home #HomeContain #Text #info {
+    font-family: "Poppins", sans-serif;
+    padding: 0 2rem;
+    font-size: 100%;
+    font-weight: 600;
+    width: 36rem;
+  }
+  body #Home #HomeContain #Text #info p {
+    padding-bottom: 1rem;
+  }
+  body #Home #HomeContain #Text #btn-contacts {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 36rem;
+  }
+  body #Home #HomeContain #Text #btn-contacts .btn-box {
+    width: 40%;
+  }
+  body #Home #HomeContain #Text #btn-contacts .btn-box .btn {
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 3rem;
+    border: solid 0.2rem #00b7ff;
+    border-radius: 1rem;
+    font-size: 100%;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #00b7ff;
+    transition: 0.3s;
+    transition: box-shadow 0.3s ease;
+  }
+  body #Home #HomeContain #Text #btn-contacts .btn-box .btn:hover, body #Home #HomeContain #Text #btn-contacts .btn-box .btn:active {
+    box-shadow: 0 0 1rem #00b7ff;
+    color: white;
+    background: linear-gradient(to bottom, #00b7ff, #009cd9);
+  }
+  body #Home #HomeContain #Text #btn-contacts #home-rds {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 3rem;
+    padding: 1rem 0.5rem;
+    gap: 2rem;
+  }
+  body #Home #HomeContain #Text #btn-contacts #home-rds a {
+    text-decoration: none;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    color: #00b7ff;
+    background: transparent;
+    border: solid 0.1rem #00b7ff;
+    border-radius: 50%;
+    transition: 0.5s;
+    transition: box-shadow 0.3s ease;
+  }
+  body #Home #HomeContain #Text #btn-contacts #home-rds a i {
+    font-size: 2rem;
+  }
+  body #Home #HomeContain #Text #btn-contacts #home-rds a:hover {
+    box-shadow: 0 0 1rem #00b7ff;
+    color: white;
+    border: solid 0.1rem white;
+    background: linear-gradient(to bottom, #00b7ff, #009cd9);
+  }
+  body #Home #empty {
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  body #Home .custom-shape-divider-bottom-1727763570 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    border: solid 2px red;
+  }
+  body #Home .custom-shape-divider-bottom-1727763570 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+    filter: drop-shadow(0px 5px 1rem rgb(0, 0, 0));
+  }
+  body #Home .custom-shape-divider-bottom-1727763570 .shape-fill {
+    fill: #ffffff;
   }
 }/*# sourceMappingURL=Styles.css.map */

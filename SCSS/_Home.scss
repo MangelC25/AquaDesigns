@@ -1,0 +1,188 @@
+@use "GeneralStyles" as Variables;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
+
+@mixin Home(
+  $heigthHome,
+  $fontsize,
+  $widthlogo,
+  $widthHomeC,
+  $widthSuscribe,
+  $widthInfo
+) {
+  body {
+    #Home {
+      color: Variables.$text-Home;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: $heigthHome;
+      overflow: hidden;
+
+      padding: 0 3rem;
+
+      #fondo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        z-index: -1;
+      }
+
+      #gradientHome {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.71) 1%,
+          transparent
+        );
+      }
+
+      #HomeContain {
+        margin-top: 5rem;
+        padding: 0 1rem;
+        width: $widthHomeC;
+        height: fit-content;
+        display: flex;
+        position: relative;
+
+        #Text {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+          #logo {
+            width: $widthlogo;
+          }
+
+          #info {
+            font-family: "Poppins", sans-serif;
+            padding: 0 2rem;
+            font-size: $fontsize;
+            font-weight: 600;
+            width: $widthInfo;
+
+            p {
+              padding-bottom: 1rem;
+            }
+          }
+
+          #btn-contacts {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            width: $widthInfo;
+
+            .btn-box {
+              width: 40%;
+
+              .btn {
+                position: relative;
+                display: inline-flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 10rem;
+                height: 3rem;
+                border: solid 0.2rem #00b7ff;
+                border-radius: 1rem;
+                font-size: 100%;
+                font-weight: 700;
+                letter-spacing: 0.1rem;
+                color: #00b7ff;
+                transition: 0.3s;
+                transition: box-shadow 0.3s ease;
+
+                &:hover,
+                &:active {
+                  box-shadow: 0 0 1rem #00b7ff;
+                  color: white;
+                  background: linear-gradient(to bottom, #00b7ff, #009cd9);
+                }
+              }
+            }
+
+            #home-rds {
+              position: relative;
+              display: flex;
+              align-items: center;
+              width: 60%;
+              height: 3rem;
+              padding: 1rem 0.5rem;
+              gap: 2rem;
+
+              a {
+                text-decoration: none;
+                position: relative;
+                display: inline-flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                width: 3rem;
+                height: 3rem;
+                color: #00b7ff;
+                background: transparent;
+                border: solid 0.1rem #00b7ff;
+                border-radius: 50%;
+                transition: 0.5s;
+                transition: box-shadow 0.3s ease;
+
+                i {
+                  font-size: 2rem;
+                }
+
+                &:hover {
+                  box-shadow: 0 0 1rem #00b7ff;
+                  color: white;
+                  border: solid 0.1rem white;
+                  background: linear-gradient(to bottom, #00b7ff, #009cd9);
+                }
+              }
+            }
+          }
+        }
+      }
+
+      #empty {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+
+      .custom-shape-divider-bottom-1727763570 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        border: solid 2px red;
+
+        svg {
+          position: relative;
+          display: block;
+          width: calc(100% + 1.3px);
+          height: 150px;
+          filter: drop-shadow(0px 5px 1rem rgb(0, 0, 0));
+        }
+
+        .shape-fill {
+            fill: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  @include Home(41rem, 100%, 14rem, 65rem, 30rem, 36rem);
+}
