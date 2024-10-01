@@ -1,6 +1,7 @@
 @use "GeneralStyles" as Variables;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 
 @mixin Home(
   $heigthHome,
@@ -15,11 +16,11 @@
       color: Variables.$text-Home;
       position: relative;
       display: flex;
-      justify-content: center;
+      justify-content: space-around;
+      align-items: center;
       width: 100%;
       height: $heigthHome;
       overflow: hidden;
-
       padding: 0 3rem;
 
       #fondo {
@@ -38,18 +39,22 @@
         height: 100%;
         background: linear-gradient(
           to right,
-          rgba(0, 0, 0, 0.71) 1%,
+          rgba(0, 0, 0, 0.782) 1%,
           transparent
         );
       }
 
       #HomeContain {
-        margin-top: 5rem;
         padding: 0 1rem;
         width: $widthHomeC;
         height: fit-content;
         display: flex;
         position: relative;
+        backdrop-filter: blur(10px);
+        background-color: #ffffff24;
+        -webkit-backdrop-filter: blur(10px);
+        box-shadow: #9dfffaa1 0px 5px 15px;
+        border-radius: 2rem;
 
         #Text {
           width: 100%;
@@ -57,16 +62,31 @@
           flex-direction: column;
           align-items: center;
 
-          #logo {
-            width: $widthlogo;
-          }
-
           #info {
             font-family: "Poppins", sans-serif;
             padding: 0 2rem;
             font-size: $fontsize;
             font-weight: 600;
             width: $widthInfo;
+
+            #eslogan {
+              padding: 1rem 0;
+              color: rgba(255, 255, 255, 0.1);
+              background-color: white;
+              background-image: url(../SRC/IMG/blue-water-splash.webp);
+              background-repeat: repeat-x;
+              background-size: contain;
+              -webkit-background-clip: text;
+              animation: animate 15s linear infinite;
+            }
+
+            h1 {
+              font-family: "Permanent Marker", cursive;
+              font-weight: 400;
+              font-style: normal;
+              text-transform: uppercase;
+              font-size: 2rem;
+            }
 
             p {
               padding-bottom: 1rem;
@@ -154,8 +174,12 @@
 
       #empty {
         width: 100%;
-        height: 100%;
-        position: relative;
+        display: flex;
+        justify-content: center;
+
+        #logo {
+          width: $widthlogo;
+        }
       }
 
       .custom-shape-divider-bottom-1727763570 {
@@ -165,7 +189,6 @@
         width: 100%;
         overflow: hidden;
         line-height: 0;
-        border: solid 2px red;
 
         svg {
           position: relative;
@@ -176,13 +199,28 @@
         }
 
         .shape-fill {
-            fill: #ffffff;
+          fill: #ffffff;
         }
       }
     }
   }
 }
 
+@keyframes animate {
+  0% {
+    background-position: left 0px top 80px;
+  }
+  40% {
+    background-position: left 800px top -20px;
+  }
+  80% {
+    background-position: left 1800px top -20px;
+  }
+  100% {
+    background-position: left 2400px top 80px;
+  }
+}
+
 @media (max-width: 1920px) {
-  @include Home(41rem, 100%, 14rem, 65rem, 30rem, 36rem);
+  @include Home(42rem, 100%, 25rem, 65rem, 30rem, 35rem);
 }
