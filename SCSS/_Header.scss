@@ -77,7 +77,6 @@
 
       ul {
         list-style-type: none;
-        background-color: Variables.$bg-navbar;
         border-radius: 0 0 5% 5%;
         gap: 1rem;
         
@@ -120,7 +119,7 @@
 }
 
 @media (max-width: 1920px) {
-  @include Header(100%, 5.5rem, none);
+  @include Header(140%, 6.5rem, none);
 }
 
 @media (max-width: 1440px) {
@@ -168,6 +167,7 @@
       }
 
       ul {
+        background: Variables.$bg-navbar;
         border-radius: 0;
         li {
           a {
@@ -184,10 +184,92 @@
 }
 
 @media (max-width: 576px) {
-  @include Header(75%, 4rem,block);
+  @include Header(75%, 3.5rem,block);
+
+  body {
+    .header {
+      #headernavbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        max-height: 0;
+        overflow-y: hidden;
+        transition: max-height 0.7s ease-in-out;
+
+        #navbar {
+          #nav-container {
+            flex-direction: column;
+            justify-content: flex-start;
+
+            #navbar-nav {
+              display: block;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      ul {
+        background: Variables.$bg-navbar;
+        border-radius: 0;
+        li {
+          a {
+            border-radius: 0;
+          }
+
+          &.active {
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
 }
 
 @media (max-width: 425px) {
-  @include Header(75%, 4rem,block);
+  @include Header(75%, 3.5rem,block);
+
+  body {
+    .header {
+      #headernavbar {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        max-height: 0;
+        overflow-y: hidden;
+        transition: max-height 0.7s ease-in-out;
+
+        #navbar {
+          #nav-container {
+            flex-direction: column;
+            justify-content: flex-start;
+
+            #navbar-nav {
+              display: block;
+              width: 100%;
+            }
+          }
+        }
+      }
+
+      ul {
+        background: Variables.$bg-navbar;
+        border-radius: 0;
+        li {
+          a {
+            border-radius: 0;
+          }
+
+          &.active {
+            border-radius: 0;
+          }
+        }
+      }
+    }
+  }
 }
 
