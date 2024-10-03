@@ -168,6 +168,12 @@
             dropRadius: 30,
         });
 
+        $(".card").ripples({
+            resolution: 256,
+            perturbance: .03,
+            dropRadius: 30,
+        });
+
         $(".custom-shape-divider-bottom-1727763570").ripples({
             resolution: 256,
             perturbance: .05,
@@ -183,7 +189,7 @@
             mouseDrag: true,
             touchDrag: true,
             autoplay: true,
-            autoplayTimeout: 5000,
+            autoplayTimeout: 3000,
             autoplayHoverPause: true,
             responsive: {
                 0: {
@@ -192,12 +198,24 @@
                 600: {
                     items: 3
                 },
-                1000: {
+                768: {
+                    loop: true,
+                    items: 2
+                },
+                1025: {
                     items: 3
                 }
             }
         })
+
+        var dots = $('.owl-dot');
+        dots.each(function (index) {
+            $(this).attr('aria-label', 'Slide ' + (index + 1));
+        });
     });
+
+
+
 </script>
 
 </html>

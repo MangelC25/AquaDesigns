@@ -1103,7 +1103,7 @@ hr {
     padding: 0 2rem;
     font-size: 100%;
     font-weight: 600;
-    width: 40rem;
+    width: 45rem;
   }
   body #Home #HomeContain #Text #info #eslogan {
     padding: 1rem 0;
@@ -1132,7 +1132,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    width: 40rem;
+    width: 45rem;
   }
   body #Home #HomeContain #Text #btn-contacts .btn-box .btn {
     position: relative;
@@ -1140,7 +1140,7 @@ hr {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 10rem;
+    width: 13rem;
     height: 3rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
@@ -1749,7 +1749,7 @@ hr {
   }
   body #Home #HomeContain {
     padding: 1rem;
-    width: 24rem;
+    width: 28rem;
     height: -moz-fit-content;
     height: fit-content;
     display: flex;
@@ -1771,7 +1771,7 @@ hr {
     padding: 0 2rem;
     font-size: 75%;
     font-weight: 600;
-    width: 26rem;
+    width: 28rem;
   }
   body #Home #HomeContain #Text #info #eslogan {
     padding: 1rem 0;
@@ -1800,7 +1800,7 @@ hr {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    width: 26rem;
+    width: 28rem;
   }
   body #Home #HomeContain #Text #btn-contacts .btn-box .btn {
     position: relative;
@@ -2615,7 +2615,7 @@ hr {
     padding: 0 2rem;
     margin-bottom: 1.5rem;
     font-family: "PT Sans Caption", sans-serif;
-    font-size: 2rem;
+    font-size: 200%;
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
@@ -2626,7 +2626,7 @@ hr {
     margin-bottom: 2.5rem;
   }
   body #Service #ServiceContent #ServiceInfo p {
-    font-size: 1.5rem;
+    font-size: 150%;
   }
   body #Service #ServiceContent #CardService {
     font-family: "Source Sans Pro", sans-serif;
@@ -2637,6 +2637,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
   }
   body #Service #ServiceContent #CardService .owl-carousel .item {
@@ -2648,11 +2649,11 @@ hr {
     color: white;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 12rem 0 0;
+    padding: 15rem 0 0;
     border: none;
     width: 100%;
-    height: 25rem;
-    max-width: 35ch;
+    height: 30rem;
+    max-width: 45ch;
     border-radius: 1rem;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -2686,7 +2687,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
     padding: 0.5rem 1rem;
-    font-size: 0.8rem;
+    font-size: 115%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     text-align: justify;
@@ -2734,5 +2735,1332 @@ hr {
   body #Service #ServiceContent #CardService .owl-carousel #card3 {
     background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
     background-size: 20rem 25rem;
+  }
+}
+@media (max-width: 1440px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 130%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15rem 0 0;
+    border: none;
+    width: 100%;
+    height: 30rem;
+    max-width: 45ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+}
+@media (max-width: 1367px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 130%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15rem 0 0;
+    border: none;
+    width: 100%;
+    height: 30rem;
+    max-width: 45ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+}
+@media (max-width: 1280px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 130%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12rem 0 0;
+    border: none;
+    width: 100%;
+    height: 27rem;
+    max-width: 45ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+}
+@media (max-width: 1025px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 100%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7rem 0 0;
+    border: none;
+    width: 100%;
+    height: 20rem;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 90%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+}
+@media (max-width: 769px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 90%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 5rem 0 0;
+    border: none;
+    width: 100%;
+    height: 20rem;
+    max-width: 38ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 80%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 0 1rem;
+  }
+}
+@media (max-width: 576px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 120%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 100%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9rem 0 0;
+    border: none;
+    width: 100%;
+    height: 20rem;
+    max-width: 45ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 75%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent p,
+  body #Service #ServiceContent h1 {
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-size: 110%;
+  }
+}
+@media (max-width: 425px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 90%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9.5rem 0 0;
+    border: none;
+    width: 100%;
+    height: 20rem;
+    max-width: 45ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 70%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent p,
+  body #Service #ServiceContent h1 {
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-size: 100%;
+  }
+}
+@media (max-width: 375px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 90%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 9.5rem 0 0;
+    border: none;
+    width: 100%;
+    height: 20rem;
+    max-width: 45ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 65%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent p,
+  body #Service #ServiceContent h1 {
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-size: 90%;
+  }
+}
+@media (max-width: 320px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 90%;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 80%;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12rem 0 0;
+    border: none;
+    width: 100%;
+    height: 20rem;
+    max-width: 45ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 43%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent p,
+  body #Service #ServiceContent h1 {
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-size: 65%;
   }
 }/*# sourceMappingURL=Styles.css.map */

@@ -226,7 +226,7 @@
 }
 
 @media (max-width: 1440px) {
-  @include Home(43rem, 100%, 25rem, 70rem, 10rem, 40rem, 3rem, 2rem);
+  @include Home(43rem, 100%, 25rem, 70rem, 13rem, 45rem, 3rem, 2rem);
 }
 
 @media (max-width: 1367px) {
@@ -242,7 +242,7 @@
 }
 
 @media (max-width: 769px) {
-  @include Home(37rem, 75%, 14rem, 24rem, 8rem, 26rem, 2rem, 1.25rem);
+  @include Home(37rem, 75%, 14rem, 28rem, 8rem, 28rem, 2rem, 1.25rem);
 }
 
 @media (max-width: 576px) {
