@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
+@import url("https://fonts.cdnfonts.com/css/source-sans-pro");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:wght@700&display=swap");
 :root {
   --bg-navbar: $bg-navbar;
   --text-colornavbar: $text-colornavbar;
@@ -26,6 +29,7 @@ html {
 
 section {
   color: black;
+  padding: 1% 5%;
 }
 
 .TitleContnt, hr {
@@ -891,7 +895,6 @@ hr {
     width: 100%;
     height: 48rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -1037,7 +1040,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -1060,7 +1062,6 @@ hr {
     width: 100%;
     height: 43rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -1206,7 +1207,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -1229,7 +1229,6 @@ hr {
     width: 100%;
     height: 43rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -1375,7 +1374,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -1398,7 +1396,6 @@ hr {
     width: 100%;
     height: 43rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -1544,7 +1541,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -1567,7 +1563,6 @@ hr {
     width: 100%;
     height: 37rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -1713,7 +1708,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -1736,7 +1730,6 @@ hr {
     width: 100%;
     height: 37rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -1882,7 +1875,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -1905,7 +1897,6 @@ hr {
     width: 100%;
     height: 51rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -2051,7 +2042,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -2079,7 +2069,6 @@ hr {
     width: 100%;
     height: 55rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -2225,7 +2214,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -2259,7 +2247,6 @@ hr {
     width: 100%;
     height: 55rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -2405,7 +2392,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -2439,7 +2425,6 @@ hr {
     width: 100%;
     height: 55rem;
     overflow: hidden;
-    padding: 0 3rem;
   }
   body #Home #fondo {
     position: absolute;
@@ -2585,7 +2570,6 @@ hr {
     width: 100%;
     overflow: hidden;
     line-height: 0;
-    border: solid 1px red;
   }
   body #Home .custom-shape-divider-bottom-1727763570 svg {
     position: relative;
@@ -2607,5 +2591,148 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+}
+@media (max-width: 1920px) {
+  body #Service {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Service #ServiceContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+  }
+  body #Service #ServiceContent .Title {
+    color: rgb(0, 144, 211);
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+  body #Service #ServiceContent #ServiceInfo {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    margin-bottom: 2.5rem;
+  }
+  body #Service #ServiceContent #ServiceInfo p {
+    font-size: 1.5rem;
+  }
+  body #Service #ServiceContent #CardService {
+    font-family: "Source Sans Pro", sans-serif;
+    padding: 0 2rem;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem;
+    color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12rem 0 0;
+    border: none;
+    width: 100%;
+    height: 25rem;
+    max-width: 35ch;
+    border-radius: 1rem;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container {
+    border-radius: 1rem;
+    background: linear-gradient(to top, rgb(0, 0, 0), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4));
+    transform: translateY(85%);
+    transition: transform 0.5s ease-in-out;
+    height: 100%;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body {
+    width: 100%;
+    text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title::after {
+    content: "";
+    position: absolute;
+    height: 0.4rem;
+    background-color: #00b7ff;
+    width: 120%;
+    left: -1.5rem;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    text-align: justify;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover, body #Service #ServiceContent #CardService .owl-carousel .card:active {
+    box-shadow: 0 0 1rem 0.5rem #00b7ff;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition-duration: 0ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container {
+    transform: translateY(0%);
+    transition-delay: 250ms;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-title::after, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-title::after,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-title::after {
+    transform: scaleX(1);
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body .card-text, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body .card-text,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body .card-text {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Spans, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Spans,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Spans {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:hover .card:focus-within .card-container .card-body #Enlaces a, body #Service #ServiceContent #CardService .owl-carousel .card:active .card-container .card-body #Enlaces a,
+  body #Service #ServiceContent #CardService .owl-carousel .card:active .card:focus-within .card-container .card-body #Enlaces a {
+    opacity: 1;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card1 {
+    background-image: url("../SRC/IMG/Fuente-Agua-Luminosa.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card2 {
+    background-image: url("../SRC/IMG/Piscina y jaccuzi.webp");
+    background-size: 20rem 25rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel #card3 {
+    background-image: url("../SRC/IMG/Planta-tratamiento-agua-bosstech.webp");
+    background-size: 20rem 25rem;
   }
 }/*# sourceMappingURL=Styles.css.map */

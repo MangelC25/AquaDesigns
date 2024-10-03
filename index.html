@@ -9,8 +9,11 @@
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+
     <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <!-- jQuery Ripples JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
     <title>Document</title>
@@ -38,7 +41,7 @@
     </header>
 
     <section id="Home">
-        <img src="SRC/IMG/HomeImg.jpeg" alt="Home" id="fondo">
+        <img src="SRC/IMG/HomeImg.webp" alt="Home" id="fondo">
         <div id="gradientHome"></div>
         <div id="HomeContain">
             <div id="Text">
@@ -79,12 +82,72 @@
         </div>
     </section>
 
-    <section>
-        <h1>adsd</h1>
+    <section id="Service">
+        <div id="ServiceContent">
+            <h1 class="Title">NUESTROS SERVICIOS</h1>
+            <div id="ServiceInfo">
+                <p>En Aqua Designs, transformamos tus espacios exteriores en auténticas obras de arte, combinando
+                    diseño arquitectónico vanguardista con la naturaleza para crear ambientes únicos. Ofrecemos una
+                    amplia gama de servicios que incluyen la creación de piscinas de lujo, paisajismo personalizado,
+                    terrazas y áreas recreativas, así como la instalación de fuentes y espejos de agua. Cada proyecto es
+                    diseñado a medida, garantizando que se ajuste a tus necesidades, estilo y visión. Nuestro equipo de
+                    expertos trabaja con materiales de la más alta calidad y tecnología de punta para garantizar
+                    resultados excepcionales que no solo embellecen tu hogar o espacio comercial, sino que también
+                    agregan valor y funcionalidad.</p>
+            </div>
+            <div id="CardService">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="card" id="card1">
+                            <div class="card-container">
+                                <div class="card-body">
+
+                                    <h1 class="card-title">Fuentes Luminosas</h1>
+                                    <p class="card-text" data-section="Projects" data-value="description1">La solución
+                                        perfecta para embellecer cualquier espacio con juegos de agua y luz. Agrega un
+                                        toque de magia visual y serenidad sin complicaciones, ideal para jardines y
+                                        áreas recreativas. Transforma tu entorno</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card" id="card2">
+                            <div class="card-container">
+                                <div class="card-body">
+
+                                    <h1 class="card-title">Piscinas y Jacuzzis</h1>
+                                    <p class="card-text" data-section="Projects" data-value="description2">Diseños
+                                        personalizados que fusionan lujo y confort. Crea un oasis privado para relajarte
+                                        y disfrutar, con sistemas modernos que garantizan una experiencia inolvidable y
+                                        sin preocupaciones. Vive el placer del agua a otro nivel.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="card" id="card3">
+                            <div class="card-container">
+                                <div class="card-body">
+
+                                    <h1 class="card-title">Plantas de Tratamiento</h1>
+                                    <p class="card-text" data-section="Projects" data-value="description3">Soluciones
+                                        eficientes y sostenibles para el tratamiento de agua. Diseñadas para optimizar
+                                        el uso de este recurso vital, nuestras plantas aseguran el cumplimiento de los
+                                        más altos estándares. Responsabilidad y tecnología a tu servicio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 </body>
 
 <script src="JS/index.js" type="module"></script>
+<script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
 <script>
     $(document).ready(function () {
         $("#empty").ripples({
@@ -110,6 +173,30 @@
             perturbance: .05,
             dropRadius: 30,
         });
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            mouseDrag: true,
+            touchDrag: true,
+            autoplay: true,
+            autoplayTimeout: 5000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
     });
 </script>
 

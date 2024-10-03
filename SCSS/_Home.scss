@@ -23,7 +23,7 @@
       width: 100%;
       height: $heigthHome;
       overflow: hidden;
-      padding: 0 3rem;
+      
 
       #fondo {
         position: absolute;
@@ -189,7 +189,6 @@
         width: 100%;
         overflow: hidden;
         line-height: 0;
-        border: solid 1px red;
 
         svg {
           position: relative;
