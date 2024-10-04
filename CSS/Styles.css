@@ -8,6 +8,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
 @import url("https://fonts.cdnfonts.com/css/source-sans-pro");
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
+@import url("https://fonts.cdnfonts.com/css/source-sans-pro");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:wght@700&display=swap");
 :root {
   --bg-navbar: $bg-navbar;
   --text-colornavbar: $text-colornavbar;
@@ -978,7 +981,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 13rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 130%;
@@ -1145,7 +1148,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 13rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 100%;
@@ -1312,7 +1315,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 10rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 100%;
@@ -1479,7 +1482,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 10rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 100%;
@@ -1646,7 +1649,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 8rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 75%;
@@ -1813,7 +1816,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 8rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 75%;
@@ -1980,7 +1983,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 7rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 75%;
@@ -2152,7 +2155,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 12rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 80%;
@@ -2330,7 +2333,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 12rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 80%;
@@ -2508,7 +2511,7 @@ hr {
     justify-content: center;
     align-items: center;
     width: 12rem;
-    height: 3rem;
+    height: 4rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
     font-size: 75%;
@@ -4395,7 +4398,17 @@ hr {
 @keyframes rotate {
   0% {
     transform: translateY(0) rotate(0deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+  20% {
+    transform: translateY(-250px) rotate(360deg);
     opacity: 1;
+    border-radius: 50%;
+  }
+  65% {
+    transform: translateY(-750px) rotate(360deg);
+    opacity: 0;
     border-radius: 50%;
   }
   100% {
@@ -4569,13 +4582,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -4601,18 +4616,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -4632,8 +4650,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -4808,13 +4826,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -4840,18 +4860,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -4871,8 +4894,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -5047,13 +5070,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -5079,18 +5104,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -5110,8 +5138,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -5286,13 +5314,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -5318,18 +5348,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -5349,8 +5382,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -5525,13 +5558,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -5557,18 +5592,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -5588,8 +5626,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -5764,13 +5802,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -5796,18 +5836,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -5827,8 +5870,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -6003,13 +6046,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -6035,18 +6080,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -6066,8 +6114,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -6242,13 +6290,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -6274,18 +6324,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -6305,8 +6358,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -6481,13 +6534,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -6513,18 +6568,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -6544,8 +6602,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -6720,13 +6778,15 @@ hr {
     left: 15%;
     width: 150px;
     height: 150px;
-    animation-delay: 3s;
+    animation-delay: 4s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(3) {
     left: 45%;
     width: 100px;
     height: 100px;
     animation-delay: 6s;
+    animation-duration: 5s;
   }
   body #Testimonials .bubble li:nth-child(4) {
     left: 60%;
@@ -6752,18 +6812,21 @@ hr {
     width: 100px;
     height: 100px;
     animation-delay: 10s;
+    animation-duration: 6s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 80%;
     width: 80px;
     height: 80px;
     animation-delay: 12s;
+    animation-duration: 8s;
   }
   body #Testimonials .bubble li:nth-child(8) {
     left: 40%;
     width: 80px;
     height: 80px;
-    animation-delay: 15s;
+    animation-delay: 6s;
+    animation-duration: 10s;
   }
   body #Testimonials .bubble li:nth-child(9) {
     left: 40%;
@@ -6783,8 +6846,8 @@ hr {
     left: 90%;
     width: 300px;
     height: 300px;
-    animation-delay: 10s;
-    animation-duration: 15s;
+    animation-delay: 2s;
+    animation-duration: 20s;
   }
   body #Testimonials .bubble li:nth-child(12) {
     left: 60%;
@@ -6792,5 +6855,179 @@ hr {
     height: 300px;
     animation-delay: 3s;
     animation-duration: 20s;
+  }
+}
+@media (max-width: 1920px) {
+  body #Contact {
+    background-color: black;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Contact .custom-shape-divider-top-1728070362 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+  }
+  body #Contact .custom-shape-divider-top-1728070362 svg {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 150px;
+  }
+  body #Contact #fondo1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 12rem;
+    z-index: -1;
+  }
+  body #Contact #ContactContainer {
+    position: relative;
+    padding: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Contact #ContactContainer #contact {
+    text-align: center;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 200%;
+    margin-bottom: 2rem;
+  }
+  body #Contact #ContactContainer #contact span {
+    font-family: "PT Sans Caption", sans-serif;
+    color: rgb(0, 144, 211);
+  }
+  body #Contact #ContactContainer form {
+    max-width: 60rem;
+    margin: 1rem auto;
+    text-align: center;
+  }
+  body #Contact #ContactContainer form .input-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  body #Contact #ContactContainer form .input-box .input-field {
+    background-color: rgba(14, 35, 54, 0.25);
+    position: relative;
+    width: 49%;
+    margin: 0.8rem 0;
+  }
+  body #Contact #ContactContainer form .input-box .input-field input {
+    font-family: "PT Sans Caption", sans-serif;
+    font-style: normal;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 100%;
+    color: white;
+    background: transparent;
+    border-radius: 0.6rem;
+    border: solid rgb(0, 144, 211) 2px;
+    z-index: 2;
+  }
+  body #Contact #ContactContainer form .input-box .input-field input::-moz-placeholder {
+    color: white;
+  }
+  body #Contact #ContactContainer form .input-box .input-field input::placeholder {
+    color: white;
+  }
+  body #Contact #ContactContainer form .input-box .input-field input:focus ~ .focus, body #Contact #ContactContainer form .input-box .input-field input:valid ~ .focus {
+    width: 100%;
+  }
+  body #Contact #ContactContainer form .input-box .input-field .focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(41, 92, 136, 0.376);
+    z-index: 1;
+    transition: 0.5s;
+  }
+  body #Contact #ContactContainer form .textarea-field {
+    position: relative;
+    margin: 0.8rem 0 2.7rem;
+    display: flex;
+  }
+  body #Contact #ContactContainer form .textarea-field textarea {
+    font-family: "PT Sans Caption", sans-serif;
+    font-style: normal;
+    position: relative;
+    background-color: rgba(14, 35, 54, 0.25);
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    font-size: 100%;
+    color: white;
+    border-radius: 0.6rem;
+    resize: none;
+    border: solid rgb(0, 144, 211) 2px;
+    z-index: 2;
+  }
+  body #Contact #ContactContainer form .textarea-field textarea::-moz-placeholder {
+    color: white;
+  }
+  body #Contact #ContactContainer form .textarea-field textarea::placeholder {
+    color: white;
+  }
+  body #Contact #ContactContainer form .textarea-field textarea:focus ~ .focus, body #Contact #ContactContainer form .textarea-field textarea:valid ~ .focus {
+    width: 100%;
+  }
+  body #Contact #ContactContainer form .textarea-field .focus {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(41, 92, 136, 0.376);
+    z-index: 1;
+    transition: 0.5s;
+  }
+  body #Contact #ContactContainer form .btn-box {
+    margin-top: 3rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 5rem;
+    justify-content: center;
+  }
+  body #Contact #ContactContainer form .btn-box .btn {
+    position: relative;
+    width: 10rem;
+    cursor: pointer;
+    height: 5rem;
+    border: solid 0.2rem rgb(0, 144, 211);
+    border-radius: 1rem;
+    font-size: 120%;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: rgb(0, 144, 211);
+    transition: 0.3s;
+    transition: box-shadow 0.3s ease;
+    background-color: transparent;
+  }
+  body #Contact #ContactContainer form .btn-box .btn:hover, body #Contact #ContactContainer form .btn-box .btn:active {
+    box-shadow: 0 0 2.5rem rgb(0, 144, 211);
+    color: white;
+    background: linear-gradient(to bottom, rgb(0, 144, 211), #009cd9);
   }
 }/*# sourceMappingURL=Styles.css.map */

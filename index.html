@@ -305,6 +305,64 @@
             <li></li>
         </ul>
     </section>
+    <section id="Contact">
+        
+        <div class="custom-shape-divider-top-1728070362">
+            
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100"
+                preserveAspectRatio="none">
+                <defs>
+                    <linearGradient id="gradient" gradientTransform="rotate(90)">
+                        <stop offset="0%" stop-color="#006094" />
+                        <stop offset="50%" stop-color="#000000" />
+                    </linearGradient>
+                </defs>
+                
+                <path d="M0 0v100-79.4a1892 1892 0 0 1 500 0l500 66.7V0H0Z" fill="url(#gradient)"></path>
+            </svg>
+        </div>
+        <div id="fondo1"></div>
+        <div id="ContactContainer">
+            <h1 id="contact">
+                <span id="Ct">Contactanos</span>
+            </h1>
+            <form action="https://formspree.io/f/mqakzpjj" method="post" id="form">
+                <div class="input-box">
+                    <div class="input-field">
+                        <input name="Name" type="text" data-section="Contact" data-value="Pfullname"
+                            placeholder="Nombre Completo" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input name="Email" type="text" data-section="Contact" data-value="PEmail"
+                            placeholder="Correo" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <div class="input-field">
+                        <input name="Number" type="text" data-section="Contact" data-value="PNumber"
+                            placeholder="Número Celular" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input name="Subject" type="text" data-section="Contact" data-value="PEmailsub"
+                            placeholder="Asunto de mensaje" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+                <div class="textarea-field">
+                    <textarea name="Message" id="Message" cols="30" rows="10" data-section="Contact"
+                        data-value="Message" placeholder="Tu mensaje" required></textarea>
+                    <span class="focus"></span>
+                </div>
+                <div class="btn-box btns">
+                    <button type="submit" class="btn" data-section="Contact" data-value="bsubmit"
+                        id="bsubmit">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </section>
 </body>
 
 <script src="JS/index.js" type="module"></script>
@@ -361,10 +419,10 @@
             dropRadius: 30,
         });
 
-        
 
 
-        
+
+
     });
 </script>
 
@@ -408,24 +466,24 @@
 </script>
 
 <script>
-        $(document).ready(function () {
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                margin: 10,
-                nav: true,
-                responsive: {
-                    0: {
-                        items: 1
-                    },
-                    600: {
-                        items: 3
-                    },
-                    1000: {
-                        items: 5
-                    }
+    $(document).ready(function () {
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
                 }
-            })
+            }
         })
+    })
 </script>
 
 </html>
