@@ -239,29 +239,34 @@
 }
 
 @media (max-width: 1440px) {
-  @include Service(150%, 130%, 100%, 45ch, 30rem, 15rem);
+  @include Service(150%, 100%, 90%, 45ch, 30rem, 15rem);
 }
 
 @media (max-width: 1367px) {
-  @include Service(150%, 130%, 100%, 45ch, 30rem, 15rem);
+  @include Service(150%, 100%, 90%, 45ch, 30rem, 15rem);
 }
 
 @media (max-width: 1280px) {
-  @include Service(150%, 130%, 100%, 45ch, 27rem, 12rem);
+  @include Service(150%, 100%, 90%, 45ch, 27rem, 12rem);
 }
 
 @media (max-width: 1025px) {
-  @include Service(150%, 100%, 90%, 35ch, 20rem, 7rem);
+  @include Service(120%, 100%, 80%, 35ch, 20rem, 7rem);
 }
 
 @media (max-width: 769px) {
-  @include Service(100%, 90%, 80%, 38ch, 20rem, 5rem);
+  @include Service(120%, 90%, 80%, 38ch, 20rem, 7rem);
 
   body {
     #Service {
       #ServiceContent {
         #CardService {
           .owl-carousel {
+
+            .owl-stage-outer{
+              padding: 2rem 0;
+            }
+
             .card {
               margin: 0 1rem;
             }
@@ -273,7 +278,7 @@
 }
 
 @media (max-width: 576px) {
-  @include Service(120%, 100%, 75%, 45ch, 20rem, 9rem);
+  @include Service(120%, 100%, 75%, 50ch, 21rem, 9rem);
 
   body {
     #Service {
@@ -302,11 +307,12 @@
 }
 
 @media (max-width: 425px) {
-  @include Service(100%, 90%, 70%, 45ch, 20rem, 9.5rem);
+  @include Service(120%, 100%, 75%, 50ch, 20em, 9.5rem);
 
   body {
     #Service {
       #ServiceContent {
+        padding: 1rem 0;
         p,
         h1 {
           text-align: center;
@@ -314,6 +320,11 @@
 
         #CardService {
           .owl-carousel {
+
+            .owl-stage-outer{
+              padding: 1rem 0;
+            }
+
             .card {
               .card-container {
                 .card-body {
@@ -331,23 +342,28 @@
 }
 
 @media (max-width: 375px) {
-  @include Service(100%, 90%, 65%, 45ch, 20rem, 9.5rem);
+  @include Service(100%, 100%, 75%, 50ch, 20rem, 9.5rem);
 
   body {
     #Service {
       #ServiceContent {
+
+        padding: 1rem 0;
+
         p,
         h1 {
           text-align: center;
         }
 
         #CardService {
+          padding: 1rem;
           .owl-carousel {
             .card {
+              margin: 2rem 1rem;
               .card-container {
                 .card-body {
                   .card-title {
-                    font-size: 90%;
+                    font-size: 100%;
                   }
                 }
               }

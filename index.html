@@ -331,7 +331,19 @@
             dropRadius: 30,
         });
 
+        $("#Testimonials").ripples({
+            resolution: 256,
+            perturbance: .03,
+            dropRadius: 30,
+        });
+
         $(".card").ripples({
+            resolution: 256,
+            perturbance: .03,
+            dropRadius: 30,
+        });
+
+        $(".container").ripples({
             resolution: 256,
             perturbance: .03,
             dropRadius: 30,
@@ -342,13 +354,24 @@
             perturbance: .05,
             dropRadius: 30,
         });
+
+        $("#Wave").ripples({
+            resolution: 256,
+            perturbance: .08,
+            dropRadius: 30,
+        });
+
+        
+
+
+        
     });
 </script>
 
 <script>
     $(document).ready(function () {
         $('.owl-carousel').owlCarousel({
-            loop: true,
+            loop: false,
             mouseDrag: true,
             touchDrag: true,
             autoplay: true,

@@ -938,7 +938,7 @@ hr {
   body #Home #HomeContain #Text #info {
     font-family: "Poppins", sans-serif;
     padding: 0 2rem;
-    font-size: 140%;
+    font-size: 130%;
     font-weight: 600;
     width: 50rem;
   }
@@ -957,7 +957,7 @@ hr {
     font-weight: 400;
     font-style: normal;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   body #Home #HomeContain #Text #info p {
     padding-bottom: 1rem;
@@ -981,7 +981,7 @@ hr {
     height: 3rem;
     border: solid 0.2rem #00b7ff;
     border-radius: 1rem;
-    font-size: 140%;
+    font-size: 130%;
     font-weight: 700;
     letter-spacing: 0.1rem;
     color: #00b7ff;
@@ -1018,7 +1018,7 @@ hr {
     transition: box-shadow 0.3s ease;
   }
   body #Home #HomeContain #Text #btn-contacts #home-rds a i {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
   body #Home #HomeContain #Text #btn-contacts #home-rds a:hover {
     box-shadow: 0 0 1rem #00b7ff;
@@ -2819,7 +2819,7 @@ hr {
     margin-bottom: 2.5rem;
   }
   body #Service #ServiceContent #ServiceInfo p {
-    font-size: 130%;
+    font-size: 100%;
   }
   body #Service #ServiceContent #CardService {
     font-family: "Source Sans Pro", sans-serif;
@@ -2880,7 +2880,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
     padding: 0.5rem 1rem;
-    font-size: 100%;
+    font-size: 90%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     text-align: justify;
@@ -2992,7 +2992,7 @@ hr {
     margin-bottom: 2.5rem;
   }
   body #Service #ServiceContent #ServiceInfo p {
-    font-size: 130%;
+    font-size: 100%;
   }
   body #Service #ServiceContent #CardService {
     font-family: "Source Sans Pro", sans-serif;
@@ -3053,7 +3053,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
     padding: 0.5rem 1rem;
-    font-size: 100%;
+    font-size: 90%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     text-align: justify;
@@ -3165,7 +3165,7 @@ hr {
     margin-bottom: 2.5rem;
   }
   body #Service #ServiceContent #ServiceInfo p {
-    font-size: 130%;
+    font-size: 100%;
   }
   body #Service #ServiceContent #CardService {
     font-family: "Source Sans Pro", sans-serif;
@@ -3226,7 +3226,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
     padding: 0.5rem 1rem;
-    font-size: 100%;
+    font-size: 90%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     text-align: justify;
@@ -3327,7 +3327,7 @@ hr {
     padding: 0 2rem;
     margin-bottom: 1.5rem;
     font-family: "PT Sans Caption", sans-serif;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
@@ -3399,7 +3399,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
     padding: 0.5rem 1rem;
-    font-size: 90%;
+    font-size: 80%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     text-align: justify;
@@ -3500,7 +3500,7 @@ hr {
     padding: 0 2rem;
     margin-bottom: 1.5rem;
     font-family: "PT Sans Caption", sans-serif;
-    font-size: 100%;
+    font-size: 120%;
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
@@ -3534,7 +3534,7 @@ hr {
     color: white;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 5rem 0 0;
+    padding: 7rem 0 0;
     border: none;
     width: 100%;
     height: 20rem;
@@ -3650,6 +3650,9 @@ hr {
     animation-delay: -5s;
     bottom: 2px;
   }
+  body #Service #ServiceContent #CardService .owl-carousel .owl-stage-outer {
+    padding: 2rem 0;
+  }
   body #Service #ServiceContent #CardService .owl-carousel .card {
     margin: 0 1rem;
   }
@@ -3713,8 +3716,8 @@ hr {
     padding: 9rem 0 0;
     border: none;
     width: 100%;
-    height: 20rem;
-    max-width: 45ch;
+    height: 21rem;
+    max-width: 50ch;
     border-radius: 1rem;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -3856,7 +3859,7 @@ hr {
     padding: 0 2rem;
     margin-bottom: 1.5rem;
     font-family: "PT Sans Caption", sans-serif;
-    font-size: 100%;
+    font-size: 120%;
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
@@ -3867,7 +3870,7 @@ hr {
     margin-bottom: 2.5rem;
   }
   body #Service #ServiceContent #ServiceInfo p {
-    font-size: 90%;
+    font-size: 100%;
   }
   body #Service #ServiceContent #CardService {
     font-family: "Source Sans Pro", sans-serif;
@@ -3893,8 +3896,8 @@ hr {
     padding: 9.5rem 0 0;
     border: none;
     width: 100%;
-    height: 20rem;
-    max-width: 45ch;
+    height: 20em;
+    max-width: 50ch;
     border-radius: 1rem;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -3928,7 +3931,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
     padding: 0.5rem 1rem;
-    font-size: 70%;
+    font-size: 75%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     text-align: justify;
@@ -4006,9 +4009,15 @@ hr {
     animation-delay: -5s;
     bottom: 2px;
   }
+  body #Service #ServiceContent {
+    padding: 1rem 0;
+  }
   body #Service #ServiceContent p,
   body #Service #ServiceContent h1 {
     text-align: center;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .owl-stage-outer {
+    padding: 1rem 0;
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
     font-size: 100%;
@@ -4047,7 +4056,7 @@ hr {
     margin-bottom: 2.5rem;
   }
   body #Service #ServiceContent #ServiceInfo p {
-    font-size: 90%;
+    font-size: 100%;
   }
   body #Service #ServiceContent #CardService {
     font-family: "Source Sans Pro", sans-serif;
@@ -4074,7 +4083,7 @@ hr {
     border: none;
     width: 100%;
     height: 20rem;
-    max-width: 45ch;
+    max-width: 50ch;
     border-radius: 1rem;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -4108,7 +4117,7 @@ hr {
   }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-text {
     padding: 0.5rem 1rem;
-    font-size: 65%;
+    font-size: 75%;
     opacity: 0;
     transition: opacity 1s ease-in-out;
     text-align: justify;
@@ -4186,12 +4195,21 @@ hr {
     animation-delay: -5s;
     bottom: 2px;
   }
+  body #Service #ServiceContent {
+    padding: 1rem 0;
+  }
   body #Service #ServiceContent p,
   body #Service #ServiceContent h1 {
     text-align: center;
   }
+  body #Service #ServiceContent #CardService {
+    padding: 1rem;
+  }
+  body #Service #ServiceContent #CardService .owl-carousel .card {
+    margin: 2rem 1rem;
+  }
   body #Service #ServiceContent #CardService .owl-carousel .card .card-container .card-body .card-title {
-    font-size: 90%;
+    font-size: 100%;
   }
 }
 @media (max-width: 320px) {
@@ -4398,12 +4416,11 @@ hr {
   body #Testimonials #TestimonialsContent {
     position: relative;
     padding: 1rem;
-    margin: 4rem 0;
+    margin: 3rem 0;
     width: 100%;
     height: -moz-fit-content;
     height: fit-content;
     border-radius: 2rem;
-    border: 2px solid white;
     justify-content: center;
   }
   body #Testimonials #TestimonialsContent #TestimonialsTitle {
@@ -4411,7 +4428,7 @@ hr {
     padding: 0 2rem;
     margin-bottom: 1.5rem;
     font-family: "PT Sans Caption", sans-serif;
-    font-size: 150%;
+    font-size: 200%;
     font-weight: 700;
     font-style: normal;
     text-align: center;
@@ -4420,7 +4437,6 @@ hr {
     display: flex;
     width: 100%;
     color: white;
-    border: solid 2px white;
     overflow: hidden;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel {
@@ -4428,18 +4444,16 @@ hr {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    padding: 2rem 0;
+    padding: 1rem 0;
     justify-content: space-around;
-    border: solid 2px rgb(255, 0, 0);
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .item {
-    font-size: 110%;
+    font-size: 150%;
     display: flex;
     justify-content: center;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
-    border: solid yellow 2px;
-    width: 17rem;
+    width: 23rem;
     display: inline-block;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
@@ -4453,7 +4467,7 @@ hr {
     padding-top: 1.5rem;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
-    width: 12rem;
+    width: 16rem;
     margin: 0 auto;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
@@ -4499,7 +4513,7 @@ hr {
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
   body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
-    font-size: 5rem;
+    font-size: 6rem;
     color: white;
     background-color: transparent;
     transition: color 0.3s ease-in-out;
@@ -4510,13 +4524,13 @@ hr {
     color: #00c8ff;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
-    margin-top: 1rem;
+    margin-top: 1.5rem;
     padding: 1rem 0;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
     background-color: rgba(255, 255, 255, 0.646);
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
     transition: background-color 0.3s ease-in-out;
   }
   body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
@@ -4539,6 +4553,7 @@ hr {
     box-shadow: inset 5px -5px 10px white;
     background-color: rgba(255, 255, 255, 0.1);
     border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
     animation: rotate 5s linear infinite;
     -webkit-backdrop-filter: blur(2px);
             backdrop-filter: blur(2px);
@@ -4610,7 +4625,2158 @@ hr {
     left: 50%;
     width: 300px;
     height: 300px;
-    animation-delay: 20s;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 1440px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 17rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 5rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 1rem;
+    height: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 1367px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 16rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 5rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 1rem;
+    height: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 1280px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 16rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 5rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 1rem;
+    height: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 1025px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 150%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 16rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 4rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 1rem;
+    height: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 769px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 120%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 16rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 1rem;
+    height: 1rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 576px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 14rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 0.8rem;
+    height: 0.8rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 425px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 14rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 0.8rem;
+    height: 0.8rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 375px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 100%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 14rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 0.8rem;
+    height: 0.8rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
+    animation-duration: 13s;
+  }
+  body #Testimonials .bubble li:nth-child(11) {
+    left: 90%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 10s;
+    animation-duration: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(12) {
+    left: 60%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 3s;
+    animation-duration: 20s;
+  }
+}
+@media (max-width: 320px) {
+  body #Testimonials {
+    background-color: #006094;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+  }
+  body #Testimonials #TestimonialsContent {
+    position: relative;
+    padding: 1rem;
+    margin: 3rem 0;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 2rem;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #TestimonialsTitle {
+    color: white;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+    font-family: "PT Sans Caption", sans-serif;
+    font-size: 90%;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+  }
+  body #Testimonials #TestimonialsContent #container {
+    display: flex;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: space-around;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item {
+    font-size: 80%;
+    display: flex;
+    justify-content: center;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card {
+    width: 14rem;
+    display: inline-block;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content {
+    overflow: hidden;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image {
+    position: relative;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -0.75rem;
+    padding-top: 1.5rem;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img {
+    width: 12rem;
+    margin: 0 auto;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card_img img {
+    position: relative;
+    z-index: 5;
+    display: block;
+    width: 100%;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-image .card-shadow {
+    background-color: grey;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: absolute;
+    top: 1.5rem;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: 0 auto;
+    filter: blur(45px);
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info {
+    background-color: rgb(0, 0, 0);
+    padding: 1.5rem 1rem;
+    border-radius: 0 0 1.25rem 1.25rem;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .item .Card .card-content .card-info .card_description {
+    font-weight: 500;
+    margin: 10px 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 40%;
+    left: 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next {
+    font-size: 3rem;
+    color: white;
+    background-color: transparent;
+    transition: color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-prev:hover,
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-nav .owl-next:hover {
+    background-color: transparent;
+    color: #00c8ff;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots {
+    margin-top: 1.5rem;
+    padding: 1rem 0;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot span {
+    background-color: rgba(255, 255, 255, 0.646);
+    width: 0.8rem;
+    height: 0.8rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  body #Testimonials #TestimonialsContent #container .owl-carousel .owl-dots .owl-dot.active span {
+    background-color: white;
+  }
+  body #Testimonials .bubble {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  body #Testimonials .bubble li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 2rem;
+    height: 2rem;
+    box-shadow: inset 5px -5px 10px white;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px rgba(255, 255, 255, 0.18);
+    transition: all 3s ease-in-out;
+    animation: rotate 5s linear infinite;
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+    bottom: -150px;
+  }
+  body #Testimonials .bubble li:nth-child(1) {
+    left: 35%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 0s;
+  }
+  body #Testimonials .bubble li:nth-child(2) {
+    left: 15%;
+    width: 150px;
+    height: 150px;
+    animation-delay: 3s;
+  }
+  body #Testimonials .bubble li:nth-child(3) {
+    left: 45%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 6s;
+  }
+  body #Testimonials .bubble li:nth-child(4) {
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 5s;
+  }
+  body #Testimonials .bubble li:nth-child(5) {
+    left: 30%;
+    width: 110px;
+    height: 110px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(6) {
+    left: 10%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 3s;
+    animation-duration: 8s;
+  }
+  body #Testimonials .bubble li:nth-child(7) {
+    left: 75%;
+    width: 100px;
+    height: 100px;
+    animation-delay: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 80%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 12s;
+  }
+  body #Testimonials .bubble li:nth-child(8) {
+    left: 40%;
+    width: 80px;
+    height: 80px;
+    animation-delay: 15s;
+  }
+  body #Testimonials .bubble li:nth-child(9) {
+    left: 40%;
+    width: 200px;
+    height: 200px;
+    animation-delay: 1s;
+    animation-duration: 10s;
+  }
+  body #Testimonials .bubble li:nth-child(10) {
+    left: 50%;
+    width: 300px;
+    height: 300px;
+    animation-delay: 2s;
     animation-duration: 13s;
   }
   body #Testimonials .bubble li:nth-child(11) {
