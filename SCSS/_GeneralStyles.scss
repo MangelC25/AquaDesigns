@@ -9,6 +9,7 @@ $text-color: black;
 $font-style1: "Protest Guerrilla", sans-serif;
 $boxshadow: 0px 2px 15px #9dfffaa1;
 
+
 :root {
   --bg-navbar: $bg-navbar;
   --text-colornavbar: $text-colornavbar;
@@ -16,6 +17,8 @@ $boxshadow: 0px 2px 15px #9dfffaa1;
   --text-Home: $text-Home;
   --text-color: $text-color;
   --boxshadow: $boxshadow;
+
+
 }
 
 * {
@@ -32,6 +35,7 @@ html {
 }
 
 section {
+  width: 100%;
   color: $text-color;
   padding: 1% 5%;
 }

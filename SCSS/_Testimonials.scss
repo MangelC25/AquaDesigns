@@ -1,0 +1,171 @@
+@use "GeneralStyles" as Variables;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Protest+Revolution&display=swap");
+@import url("https://fonts.cdnfonts.com/css/source-sans-pro");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&family=PT+Sans:wght@700&display=swap");
+
+@mixin Testimo() {
+  body {
+    #Testimonials {
+      background-color: #006094;
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+
+      #TestimonialsContent {
+        position: relative;
+        padding: 1rem;
+        margin: 4rem 0;
+        width: 100%;
+        height: fit-content;
+        border-radius: 2rem;
+        border: 2px solid white;
+        justify-content: center;
+
+        #TestimonialsTitle {
+          color: white;
+          padding: 0 2rem;
+          margin-bottom: 1.5rem;
+          font-family: "PT Sans Caption", sans-serif;
+          font-size: 150%;
+          font-weight: 700;
+          font-style: normal;
+          text-align: center;
+        }
+
+        #container {
+          display: flex;
+          width: 100%;
+          color: white;
+          border: solid 2px white;
+          overflow: hidden;
+
+          .owl-carousel {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding: 2rem 0;
+            justify-content: space-around;
+            border: solid 2px rgb(255, 0, 0);
+
+            .item {
+              font-size: 110%;
+              display: flex;
+              justify-content: center;
+
+              .Card {
+                border: solid yellow 2px;
+                width: 17rem;
+                display: inline-block;
+
+                .card-content {
+                  overflow: hidden;
+
+                  .card-image {
+                    position: relative;
+                    background-color: white;
+                    border-radius: 50%;
+                    margin-bottom: -0.75rem;
+                    padding-top: 1.5rem;
+
+                    .card_img {
+                      width: 12rem;
+                      margin: 0 auto;
+
+                      img {
+                        position: relative;
+                        z-index: 5;
+
+                        display: block;
+                        width: 100%;
+                      }
+                    }
+
+                    .card-shadow {
+                      background-color: grey;
+                      width: 220px;
+                      height: 220px;
+                      border-radius: 50%;
+                      position: absolute;
+                      top: 1.5rem;
+                      left: 0;
+                      right: 0;
+                      z-index: 1;
+                      margin: 0 auto;
+                      filter: blur(45px);
+                    }
+                  }
+
+                  .card-info {
+                    background-color: rgb(0, 0, 0);
+                    padding: 1.5rem 1rem;
+                    border-radius: 0 0 1.25rem 1.25rem;
+                    display: flex;
+                    text-align: center;
+                    flex-direction: column;
+                    position: relative;
+                    z-index: 10;
+
+                    .card_description {
+                      font-weight: 500;
+                      margin: 10px 0;
+                    }
+                  }
+                }
+              }
+            }
+
+            .owl-nav {
+              width: 100%;
+              display: flex;
+              justify-content: space-between;
+              position: absolute;
+              top: 40%;
+              left: 0;
+
+              .owl-prev,
+              .owl-next {
+                font-size: 5rem;
+                color: white;
+                background-color: transparent;
+                transition: color 0.3s ease-in-out;
+
+                &:hover {
+                  background-color: transparent;
+                  color: #00c8ff;
+                }
+              }
+            }
+
+            .owl-dots {
+              margin-top: 1rem;
+              padding: 1rem 0;
+
+              .owl-dot {
+                span {
+                  background-color: rgba(255, 255, 255, 0.646);
+                  width: 1rem;
+                  height: 1rem;
+                  transition: background-color 0.3s ease-in-out;
+                }
+
+                &.active {
+                  span {
+                    background-color: white;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1920px) {
+  @include Testimo();
+}
