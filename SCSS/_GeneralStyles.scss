@@ -1,7 +1,7 @@
 /*Variables*/
 @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
 
-$bg-navbar: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+$bg-navbar: linear-gradient(90deg in oklab, rgb(0, 179, 255) 30%, rgb(0, 39, 211));
 $text-colornavbar: white;
 $text-colornavbarHover: black;
 $text-Home: white;
@@ -38,6 +38,15 @@ section {
   width: 100%;
   color: $text-color;
   padding: 1% 5%;
+}
+
+header{
+  transition: all 0.6s ease-out;
+  &.sticky {
+       
+    background: $bg-navbar;
+    transition: background 0.6s ease-out;
+  }
 }
 
 .TitleContnt, hr{

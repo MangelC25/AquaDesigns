@@ -39,6 +39,14 @@ section {
   padding: 1% 5%;
 }
 
+header {
+  transition: all 0.6s ease-out;
+}
+header.sticky {
+  background: linear-gradient(90deg in oklab, rgb(0, 179, 255) 30%, rgb(0, 39, 211));
+  transition: background 0.6s ease-out;
+}
+
 .TitleContnt, hr {
   margin-bottom: 2rem;
   font-family: "Protest Guerrilla", sans-serif;
@@ -57,7 +65,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 140%;
     display: flex;
@@ -68,9 +75,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -89,7 +95,6 @@ hr {
     cursor: pointer;
     display: none;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -124,7 +129,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -150,7 +155,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 100%;
     display: flex;
@@ -161,9 +165,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -182,7 +185,6 @@ hr {
     cursor: pointer;
     display: none;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -217,7 +219,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -243,7 +245,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 100%;
     display: flex;
@@ -254,9 +255,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -275,7 +275,6 @@ hr {
     cursor: pointer;
     display: none;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -310,7 +309,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -336,7 +335,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 100%;
     display: flex;
@@ -347,9 +345,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -368,7 +365,6 @@ hr {
     cursor: pointer;
     display: none;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -403,7 +399,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -429,7 +425,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -440,9 +435,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -461,7 +455,6 @@ hr {
     cursor: pointer;
     display: none;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -496,7 +489,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -522,7 +515,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -533,9 +525,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -554,7 +545,6 @@ hr {
     cursor: pointer;
     display: block;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -589,7 +579,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -626,7 +616,7 @@ hr {
     width: 100%;
   }
   body .header ul {
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    background: linear-gradient(90deg in oklab, rgb(0, 179, 255) 30%, rgb(0, 39, 211));
     border-radius: 0;
   }
   body .header ul li a {
@@ -643,7 +633,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -654,9 +643,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -675,7 +663,6 @@ hr {
     cursor: pointer;
     display: block;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -710,7 +697,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -747,7 +734,7 @@ hr {
     width: 100%;
   }
   body .header ul {
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    background: linear-gradient(90deg in oklab, rgb(0, 179, 255) 30%, rgb(0, 39, 211));
     border-radius: 0;
   }
   body .header ul li a {
@@ -764,7 +751,6 @@ hr {
     left: 0;
     width: 100%;
     padding: 0.5rem 2rem;
-    /*background: Variables.$bg-navbar;*/
     font-family: "Protest Guerrilla", sans-serif;
     font-size: 75%;
     display: flex;
@@ -775,9 +761,8 @@ hr {
     z-index: 100;
     background-color: rgba(0, 0, 0, 0.175);
     box-shadow: 0px 2px 15px rgba(157, 255, 250, 0.631372549);
-    /* Aplicar el blur solo al fondo del header */
     backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); /* Para soporte en navegadores WebKit */
+    -webkit-backdrop-filter: blur(10px);
   }
   body .header #logo {
     -webkit-user-select: none;
@@ -796,7 +781,6 @@ hr {
     cursor: pointer;
     display: block;
     transition: all 0.2s ease-in-out;
-    transition: 2s;
   }
   body .header #menu-icon:hover {
     background-color: white;
@@ -831,7 +815,7 @@ hr {
     width: 100%;
     padding: 0.8rem;
     display: block;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.6s ease-in-out;
   }
   body .header ul li.active {
     transition: all 0.2s ease-in-out;
@@ -868,7 +852,7 @@ hr {
     width: 100%;
   }
   body .header ul {
-    background: linear-gradient(90deg in oklab, rgb(0, 213, 255) 30%, rgb(0, 39, 211));
+    background: linear-gradient(90deg in oklab, rgb(0, 179, 255) 30%, rgb(0, 39, 211));
     border-radius: 0;
   }
   body .header ul li a {
