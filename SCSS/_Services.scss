@@ -40,7 +40,7 @@
         }
 
         #ServiceInfo {
-          font-family: "Source Sans Pro", sans-serif;
+          font-family: "Poppins", sans-serif;
           padding: 0 2rem;
           margin-bottom: 2.5rem;
 
@@ -211,7 +211,6 @@
         animation-delay: -5s;
         bottom: 2px;
       }
-
     }
   }
 }
@@ -262,8 +261,7 @@
       #ServiceContent {
         #CardService {
           .owl-carousel {
-
-            .owl-stage-outer{
+            .owl-stage-outer {
               padding: 2rem 0;
             }
 
@@ -320,8 +318,7 @@
 
         #CardService {
           .owl-carousel {
-
-            .owl-stage-outer{
+            .owl-stage-outer {
               padding: 1rem 0;
             }
 
@@ -347,8 +344,11 @@
   body {
     #Service {
       #ServiceContent {
-
         padding: 1rem 0;
+
+        #ServiceInfo {
+          padding: 0;
+        }
 
         p,
         h1 {
@@ -358,6 +358,9 @@
         #CardService {
           padding: 1rem;
           .owl-carousel {
+            .item{
+
+            
             .card {
               margin: 2rem 1rem;
               .card-container {
@@ -367,7 +370,7 @@
                   }
                 }
               }
-            }
+            }}
           }
         }
       }
@@ -376,19 +379,26 @@
 }
 
 @media (max-width: 320px) {
-  @include Service(90%, 80%, 43%, 45ch, 20rem, 12rem);
+  @include Service(90%, 90%, 50%, 50ch, 20rem, 12rem);
 
   body {
     #Service {
       #ServiceContent {
+
+        #ServiceInfo {
+          padding: 0;
+        } 
+
         p,
         h1 {
           text-align: center;
         }
 
         #CardService {
+          
           .owl-carousel {
             .card {
+              margin: 2rem 0;
               .card-container {
                 .card-body {
                   .card-title {

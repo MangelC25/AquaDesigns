@@ -68,7 +68,6 @@
             font-family: "Poppins", sans-serif;
             padding: 0 2rem;
             font-size: $fontsize;
-            font-weight: 600;
             width: $widthInfo;
 
             #eslogan {
@@ -84,7 +83,7 @@
 
             h1 {
               font-family: "Permanent Marker", cursive;
-              font-weight: 400;
+              font-weight: 600;
               font-style: normal;
               text-transform: uppercase;
               font-size: $fontsize-i;
@@ -92,6 +91,7 @@
 
             p {
               padding-bottom: 1rem;
+              font-weight: 400;
             }
           }
 
@@ -112,7 +112,7 @@
                 justify-content: center;
                 align-items: center;
                 width: $widthbtn;
-                height: 4rem;
+                height: 3rem;
                 border: solid 0.2rem #00b7ff;
                 border-radius: 1rem;
                 font-size: $fontsize;
@@ -300,7 +300,7 @@
 }
 
 @media (max-width: 320px){
-  @include Home(55rem, 75%, 12rem, 19rem, 12rem, 22rem, 2rem, 1.1rem);
+  @include Home(55rem, 90%, 12rem, 19rem, 12rem, 21rem, 2rem, 1.1rem);
 
   body {
     #Home {
