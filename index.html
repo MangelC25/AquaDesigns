@@ -425,10 +425,10 @@
     $(document).ready(function () {
 
 
-        const carousel = $('.owl-carousel').owlCarousel({
+        $('.owl-carousel').owlCarousel({
             loop: false,
             mouseDrag: true,
-            touchDrag: true,
+            
             autoplay: true,
             autoplayTimeout: 3000,
             autoplayHoverPause: true,
@@ -448,11 +448,6 @@
                 }
             }
         });
-
-        // Asegúrate de que el evento touchmove sea no pasivo
-        carousel.on('touchmove', function (event) {
-            event.preventDefault();
-        }, { passive: false });
 
         var dots = $('.owl-dot');
         dots.each(function (index) {
