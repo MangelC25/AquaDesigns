@@ -177,11 +177,12 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        z-index: 1;
+        
 
         #logo {
           user-select: none;
           width: $widthlogo;
+          z-index: 1;
         }
       }
 
