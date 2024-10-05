@@ -1,5 +1,6 @@
 function setupMenu() {
   const options = document.querySelectorAll(".option");
+  const navigationHeight = document.querySelectorAll("section");
 
   options.forEach((option) => {
     
@@ -13,6 +14,8 @@ function setupMenu() {
       option.classList.add("active");
     });
   });
+  
+
 }
 
 export default setupMenu;

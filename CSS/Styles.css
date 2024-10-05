@@ -31,6 +31,7 @@
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
+  scroll-padding-top: 45px;
 }
 
 section {
@@ -47,7 +48,8 @@ header.sticky {
   transition: background 0.6s ease-out;
 }
 
-.TitleContnt, hr {
+.TitleContnt,
+hr {
   margin-bottom: 2rem;
   font-family: "Protest Guerrilla", sans-serif;
 }
@@ -864,7 +866,7 @@ hr {
 }
 @keyframes animate {
   0% {
-    background-position: left 0px top 80px;
+    background-position-x: left 0px top 80px;
   }
   40% {
     background-position: left 800px top -20px;
