@@ -913,7 +913,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -1019,6 +1019,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -1080,7 +1081,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -1186,6 +1187,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -1247,7 +1249,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -1353,6 +1355,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -1414,7 +1417,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -1520,6 +1523,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -1581,7 +1585,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -1687,6 +1691,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -1748,7 +1753,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -1854,6 +1859,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -1915,7 +1921,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -2021,6 +2027,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -2087,7 +2094,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -2193,6 +2200,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -2265,7 +2273,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -2371,6 +2379,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;
@@ -2443,7 +2452,7 @@ hr {
     display: flex;
     position: relative;
     backdrop-filter: blur(10px);
-    background-color: rgba(255, 255, 255, 0.1411764706);
+    background-color: rgba(255, 255, 255, 0.1843137255);
     -webkit-backdrop-filter: blur(10px);
     box-shadow: rgba(157, 255, 250, 0.631372549) 0px 5px 15px;
     border-radius: 2rem;
@@ -2549,6 +2558,7 @@ hr {
     width: 100%;
     display: flex;
     justify-content: center;
+    z-index: 1;
   }
   body #Home #empty #logo {
     -webkit-user-select: none;

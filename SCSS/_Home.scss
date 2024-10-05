@@ -54,7 +54,7 @@
         display: flex;
         position: relative;
         backdrop-filter: blur(10px);
-        background-color: #ffffff24;
+        background-color: #ffffff2f;
         -webkit-backdrop-filter: blur(10px);
         box-shadow: #9dfffaa1 0px 5px 15px;
         border-radius: 2rem;
@@ -177,6 +177,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        z-index: 1;
 
         #logo {
           user-select: none;
