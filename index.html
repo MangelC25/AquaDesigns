@@ -4,20 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description"
+        content="Descubre una experiencia de navegación fluida y moderna con un diseño de header adaptable. Nuestro sistema de navegación mejora la usabilidad en cualquier dispositivo, ofreciendo una interfaz elegante y funcional con transiciones suaves y un estilo visual impactante">
     <link rel="stylesheet" href="CSS/Styles.css">
 
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
-    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./node_modules/owl.carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="./node_modules/owl.carousel/owl.theme.default.min.css">
 
-    <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- jQuery Ripples JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
-    
+
     <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
     <title>Document</title>
 </head>
@@ -74,7 +70,7 @@
             </div>
         </div>
         <div id="empty">
-            <img id="logo" src="SRC/IMG/AquaDesigns-Logo.webp"></img>
+            <img id="logo" src="SRC/IMG/AquaDesigns-Logo.webp" alt="logo"></img>
         </div>
         <div class="custom-shape-divider-bottom-1727763570">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
@@ -368,8 +364,9 @@
 </body>
 
 <script src="JS/index.js" type="module"></script>
-
-<script src="./node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+<script src="./JS/jquery.min.js"></script>
+<script src="./node_modules/jquery.ripples/dist/jquery.ripples-min.js"></script>
+<script src="./node_modules/owl.carousel/owl.carousel.min.js"></script>
 
 <script>
     $(document).ready(function () {
@@ -426,7 +423,9 @@
 
 <script>
     $(document).ready(function () {
-        $('.owl-carousel').owlCarousel({
+
+
+        const carousel = $('.owl-carousel').owlCarousel({
             loop: false,
             mouseDrag: true,
             touchDrag: true,
@@ -448,10 +447,12 @@
                     items: 3
                 }
             }
-        })
+        });
 
-
-
+        // Asegúrate de que el evento touchmove sea no pasivo
+        carousel.on('touchmove', function (event) {
+            event.preventDefault();
+        }, { passive: false });
 
         var dots = $('.owl-dot');
         dots.each(function (index) {
